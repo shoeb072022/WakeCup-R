@@ -551,3 +551,167 @@ section.add {
     background-color: rgba(0, 0, 0, 0.2);
     animation: slogan 2s ease-in forwards;
 }
+
+.section-unique {
+
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.unique-w1200 {
+    width: 1000px;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.product {
+    width: 350px;
+    border: 2px solid #4b352e;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: left;
+    background-color: #FFE699;
+   
+}
+
+.product img {
+    width: 325px;
+    height: 300px;
+    
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px dotted #4b352e;
+    
+}
+
+.product h1    {
+    margin: 10px;
+    border-top: 1px solid #4b352e;
+    border-bottom: 1px solid #4b352e;
+}
+
+.product p {
+    margin: 20px 10px;
+}
+
+.product button {
+    margin: 10px;
+    background-color: #4b352e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+ }
+
+ .product button:hover {
+    background-color: black;
+    color: goldenrod;
+    
+ }
+
+ .add-w1200 a {
+    text-decoration: none;
+    color: black;
+ }
+
+ .learn-img {
+    display: flex;
+    background-image: url("LearnWithUsHeader.jpg") ;
+    width: 100vw;
+    height:650px;
+   background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-origin: border-box;
+    background-position: center;
+ }
+
+ .learn-img h1   {
+    font-size: 70px;
+    color: white;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    animation: slogan 2s ease-in forwards;
+ }
+
+ .sources-learn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    
+    
+}
+
+.sources-learn {
+    width: 810px;
+    
+    margin: 20px;
+
+    flex-direction: column;
+
+}
+
+.learnall {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;   
+    border: 2px solid #4b352e;
+}
+
+.learnall h1, .learnall p {
+    margin: 20px;
+    
+}
+
+.learnall h1 {
+    font-size: 25px;
+}
+
+.learnall p {
+    font-size: 20px;
+}
+
+.test {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 20px;
+    flex-direction: column;
+
+}
+  
+.learnall button {
+    margin: 10px;
+    background-color: #4b352e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+ }
+
+ .learnall button:hover {
+    background-color: black;
+    color: goldenrod;
+    
+ }
+
+ 
