@@ -125,7 +125,7 @@ header {
 }
 
 .banner-img h1   {
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     margin: 20px;
     background-color: rgba(0, 0, 0, 0.2);
@@ -316,4 +316,238 @@ footer {
     }
     
     
+}
+
+.our-cafes-img {
+    display: flex;
+    background-image: url("glass-1058878_1920.jpg") ;
+    width: 100vw;
+    height:150px;
+   background-size: contain;
+    background-repeat: repeat;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-origin: border-box;
+    background-position: bottom;
+   
+            
+}
+
+.our-cafes-img h1   {
+    font-size: 60px;
+    color: white;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    animation: slogan 2s ease-in forwards;
+}
+
+
+section.add {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.add-w1200 {
+    
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.add1 {
+    width: 350px;
+    border: 2px solid #4b352e;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+
+.add1 img {
+    width: 325px;
+    height: 300px;
+    
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.add1 h1    {
+    margin: 10px;
+}
+
+.add2 {
+    width: 350px;
+    border: 2px solid #4b352e;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+
+.add2 img {
+    width: 325px;
+    height: 300px;
+    
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.add2 h1    {
+    margin: 10px;
+}
+
+.add3 {
+    width: 350px;
+    border: 2px solid #4b352e;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+
+.add3 img {
+    width: 325px;
+    height: 300px;
+    
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.add3 h1    {
+    margin: 10px;
+}
+
+.add1:hover, .add2:hover, .add3:hover {
+    transform: scale(1.1);
+}
+
+.sources-img {
+    display: flex;
+    background-image: url("background-roasted-fresh-brown-coffee-beans-perfect-cool-wallpaper.jpg") ;
+    width: 100vw;
+    height:150px;
+   background-size: contain;
+    background-repeat: repeat;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-origin: border-box;
+    background-position: bottom;
+   
+            
+}
+
+.sources-img h1   {
+    font-size: 60px;
+    color: white;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    animation: slogan 2s ease-in forwards;
+}
+
+.sources-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sources-text {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.textall {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;   
+    border: 2px solid #4b352e;
+}
+
+.textall h1, .textall p {
+    margin: 20px;
+    
+}
+
+.textall h1 {
+    font-size: 25px;
+}
+
+.textall p {
+    font-size: 20px;
+}
+
+.aboutus-img {
+    display: flex;
+    background-image: url("architecture-1297321_640.png") ;
+    width: 100vw;
+    height:150px;
+   background-size: contain;
+    background-repeat: repeat;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-origin: border-box;
+    background-position: bottom;
+}
+
+.aboutus-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus-img h1   {
+    font-size: 60px;
+    color: white;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    animation: slogan 2s ease-in forwards;
+}
+
+.coffee-blend-img {
+    display: flex;
+    background-image: url("coffee-1239549_640.jpg") ;
+    width: 100vw;
+    height:150px;
+   background-size: contain;
+    background-repeat: repeat;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-origin: border-box;
+    background-position: bottom;
+}
+
+.coffee-blend-img h1   {
+    font-size: 60px;
+    color: white;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    animation: slogan 2s ease-in forwards;
 }
