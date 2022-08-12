@@ -4,7 +4,7 @@
     height: 100vh;
     font-family: 'Dancing Script', sans-serif;
     margin: 0;
-
+   
 
 }
 
@@ -289,34 +289,7 @@ footer {
     margin-top: 100px;
 }
 
-@media all and (max-width:850px) {
-    header {
-        flex-direction: column;
-        justify-content: center;
 
-    }
-
-    .nav-bar {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    
-}
-
-@media all and (max-width:600px) {
-    footer {
-        flex-direction: column;
-        /* justify-content: center; */
-        align-items: center;
-    }
-
-    .copyrights {
-        margin-top: 20px;
-    }
-    
-    
-}
 
 .our-cafes-img {
     display: flex;
@@ -714,4 +687,110 @@ section.add {
     
  }
 
- 
+ .S1-contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+ }
+
+ .S1-contact-w800{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #4b352e;
+    margin: 20px;
+    background-color: #FFE699;
+ }
+
+ .s1-c-form {
+    width: 350px;
+    margin: 10px;
+    background-color: #FCF8E8;
+ }
+
+    input[type=text], input[type=email], 
+    input[type=tel], select {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 5px;
+
+ }
+
+ #radio {
+    display: block;
+    margin-top: 20px;
+ }
+
+ .select-city {
+    display: block;
+    margin-top: 5px;
+
+ }
+
+ form {
+    background-color: #dab72f;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+ }
+
+.form-button {
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    padding: 10px;  
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #4b352e;
+    color: white;
+    font-size: 15px;
+ }
+
+ .form-button:hover {
+    background-color: #efeacf;
+    color: black;
+ }
+
+ .s1-c-map {
+    width: 350px;
+    margin: 10px; 
+    padding: 10px;
+    background-color: #FCF8E8;   
+ }
+
+ @media all and (max-width:850px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .S1-contact-w800{
+        flex-direction: column;
+     }
+    
+}
+
+@media all and (max-width:600px) {
+    footer {
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .copyrights {
+        margin-top: 20px;
+    }
+    
+    
+}
